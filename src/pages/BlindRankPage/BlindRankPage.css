@@ -1,0 +1,80 @@
+/* Container for the main game */
+.blindrank-container {
+  padding: 20px;
+}
+
+/* Conference selection screen */
+.conference-select-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.conference-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #0b72ff;
+  color: white;
+}
+
+.conference-button:hover {
+  background-color: #0959b2;
+}
+
+.final-ranking {
+  padding: 20px 0;
+}
+
+.final-ranking-list {
+  margin-top: 20px;
+}
+
+.final-ranking-item {
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background-color: #3a1e1e;
+  color: white;
+  display: block; 
+}
+
+.final-ranking-item.correct {
+  background-color: #1e3a1e;
+}
+
+.final-ranking-item.incorrect {
+  background-color: #3a1e1e;
+}
+
+.team-logo {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.team-name {
+  font-size: 18px;
+}
+
+.ranking-feedback {
+  margin-left: 0; /* remove flex margin */
+  opacity: 0.9;
+}
+
+
+.play-again-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #0b72ff;
+  color: white;
+}
+
+.play-again-button:hover {
+  background-color: #0959b2;
+}

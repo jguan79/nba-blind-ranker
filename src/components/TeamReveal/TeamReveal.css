@@ -1,0 +1,15 @@
+.teamreveal-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.teamreveal-logo {
+  display: block;
+  margin: 0 auto 10px auto;
+  max-width: 80px;
+}
+
+.teamreveal-name {
+  margin: 0;
+  font-size: 1.5rem;
+}
