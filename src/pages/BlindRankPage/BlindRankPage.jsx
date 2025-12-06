@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { getStandings } from "../../api/nba";
 import "./BlindRankPage.css";
 import TeamReveal from "../../components/TeamReveal/TeamReveal";
-import RankSlots from "../../components/RankSlots/rankSlots";
+import RankSlots from "../../components/RankSlots/RankSlots";
 
 export default function BlindRankPage() {
   const [conference, setConference] = useState(null); 
